@@ -1,0 +1,195 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  overflow: scroll;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 200px;
+  color: black;
+  width: 100%;
+  background-color: rgb(110, 214, 110);
+  background-blend-mode: color;
+}
+
+.headline {
+  font-size: 50px;
+}
+
+.top-link {
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.top-link:hover {
+  color: blue;
+  font-size: 20px;
+  background-color: ;
+}
+
+.start {
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(155, 224, 36);
+  color: rgb(255, 250, 250);
+  height: 30px;
+  width: 150px;
+  padding-top: 7px;
+  border: 2px solid rgb(236, 228, 226);
+  border-radius: 4%;
+  text-align: center;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: rgb(42, 201, 105);
+  font-size: 20px;
+  color: rgb(6, 6, 6);
+}
+
+.description {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(pexels-ella-olsson-1640770.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.maincontent {
+  margin-left: 550px;
+  color: rgb(0, 0, 0);
+}
+
+.price {
+  padding-top: 40px;
+  background-image: url(pexels-mikhail-nilov-6740517.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  padding-bottom: 40px;
+}
+.plan {
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+}
+.pricingtable {
+  margin-top: 30px;
+  display: flex;
+  justify-content: stretch;
+  align-item: center;
+
+  gap: 20px;
+  padding-right: 20px;
+  width: 100%;
+  min-height: 40vh;
+}
+.priceplan {
+  background-color: rgb(166, 166, 166);
+  margin-left: 20px;
+  flex: 1;
+  opacity: 0.75;
+}
+.priceplan:hover {
+  background-color: rgb(231, 224, 224);
+  margin-left: 20px;
+  border: 5px solid rgb(0, 255, 38);
+  flex: 1;
+}
+
+.plan-button {
+  background-color: orangered;
+  border: none;
+
+  color: white;
+  margin-left: 50%;
+}
+
+.plan-button:hover {
+  background-color: rgb(13, 228, 53);
+  color: black;
+  cursor: pointer;
+}
+.plan-title,
+.plan-price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.price ul {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+footer {
+  background-image: url(pexels-breakingpic-3301.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 70vh;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(16, 16, 16);
+}
+.icons {
+  list-style: none;
+  display: inline-block;
+
+  display: flex;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+footer div ul img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+footer div ul img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tags {
+  list-style: none;
+  padding-top: 50px;
+  line-height: 40px;
+}
+
+footer div ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+footer div ul a:hover {
+  font-size: 20px;
+  color: rgb(14, 247, 88);
+}
+
+.last {
+  background-color: black;
+  color: white;
+}
